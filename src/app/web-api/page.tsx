@@ -10,7 +10,6 @@ import { SiteHeader } from '@/components/site-header';
 const WebApiPage: React.FC = () => {
 
   const breadcrumbItems = [
-    { href: "/dashboard", label: "Dashboard" },
     { href: "/web-api", label: "Web / API", isCurrentPage: true }
   ];
   

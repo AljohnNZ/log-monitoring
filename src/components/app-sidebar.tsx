@@ -18,14 +18,9 @@ import { cn } from "@/lib/utils"
 const data = {
   navMain: [
     {
-      title: "Dashboard",
-      url: "dashboard",
+      title: "Database",
+      url: "database",
       items: [
-        {
-          title: "Dashboard",
-          url: "dashboard",
-          icon: LayoutDashboard,
-        },
         {
           title: "Database",
           url: "database",
@@ -45,7 +40,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const pathname = usePathname()
   
   const isActive = (url: string) => {
-    if (url === 'dashboard' && (pathname === '/' || pathname === '/dashboard')) {
+    if (url === 'database' && (pathname === '/' || pathname === '/database')) {
       return true
     }
     return pathname?.includes(url)
