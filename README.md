@@ -14,4 +14,5 @@ For Production
 npm run build && npm run start
 ```
 
-![image](https://github.com/user-attachments/assets/639f3286-4ed7-4724-8fa3-88aa56856359)
+![image](https://github.com/user-attachments/assets/0292b682-c38e-4e15-9d47-dfac956aa1e4)
+![image](https://github.com/user-attachments/assets/ed2928d2-f1a3-41f5-815c-1cb09c070811)
